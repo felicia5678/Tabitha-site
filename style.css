@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+    font-size: medium;
+}
+H1{
+   text-align: center;
+   color: orange;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

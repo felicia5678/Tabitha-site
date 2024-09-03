@@ -1,0 +1,95 @@
+nav,
+header,
+footer{
+    display: block;
+}
+body{
+    line-height: 1.5;
+    margin: 0;
+    background-color: rgb(51, 102, 197);
+}
+span{
+    color: yellow;
+    text-align: center;
+}
+.large{
+    text-align: center;
+    background-color: orange;
+}
+label{
+    font-size: 35px;
+    font-weight: 600;
+}
+p{
+    font-size: 28px;
+    line-height: 1.2;
+}
+article p{
+    font-size: 35px;
+    line-height: 20px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    background-color: aqua;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    }
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+ul.topnav li.dropdownicon{
+    display: none;
+}
+footer.footsy{
+    background-color: rgb(126, 16, 16);
+    padding-left: 30%;
+}
+.footsy h1{
+    color: rgb(148, 143, 188);
+    font-size: 35px;
+    text-align: left;
+}
+.footsy ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+.footsy ul li{
+    color: aqua;
+    font-size: 22px;
+    line-height: 1.5;
+}
